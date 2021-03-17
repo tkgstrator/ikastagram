@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108E0A6326021AB00039E9FB /* ikastagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A6226021AB00039E9FB /* ikastagramApp.swift */; };
+		108E0A6526021AB00039E9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A6426021AB00039E9FB /* ContentView.swift */; };
+		108E0A6726021AB40039E9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108E0A6626021AB40039E9FB /* Assets.xcassets */; };
+		108E0A6A26021AB40039E9FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108E0A6926021AB40039E9FB /* Preview Assets.xcassets */; };
+		108E0A7526021AB40039E9FB /* ikastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A7426021AB40039E9FB /* ikastagramTests.swift */; };
+		108E0A8026021AB40039E9FB /* ikastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A7F26021AB40039E9FB /* ikastagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		108E0A7126021AB40039E9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108E0A5726021AB00039E9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108E0A5E26021AB00039E9FB;
+			remoteInfo = ikastagram;
+		};
+		108E0A7C26021AB40039E9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108E0A5726021AB00039E9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108E0A5E26021AB00039E9FB;
+			remoteInfo = ikastagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108E0A5F26021AB00039E9FB /* ikastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108E0A6226021AB00039E9FB /* ikastagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikastagramApp.swift; sourceTree = "<group>"; };
+		108E0A6426021AB00039E9FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		108E0A6626021AB40039E9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		108E0A6926021AB40039E9FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		108E0A6B26021AB40039E9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108E0A7026021AB40039E9FB /* ikastagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikastagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108E0A7426021AB40039E9FB /* ikastagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikastagramTests.swift; sourceTree = "<group>"; };
+		108E0A7626021AB40039E9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108E0A7B26021AB40039E9FB /* ikastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108E0A7F26021AB40039E9FB /* ikastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikastagramUITests.swift; sourceTree = "<group>"; };
+		108E0A8126021AB40039E9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108E0A5C26021AB00039E9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A6D26021AB40039E9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A7826021AB40039E9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108E0A5626021AB00039E9FB = {
+			isa = PBXGroup;
+			children = (
+				108E0A6126021AB00039E9FB /* ikastagram */,
+				108E0A7326021AB40039E9FB /* ikastagramTests */,
+				108E0A7E26021AB40039E9FB /* ikastagramUITests */,
+				108E0A6026021AB00039E9FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108E0A6026021AB00039E9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108E0A5F26021AB00039E9FB /* ikastagram.app */,
+				108E0A7026021AB40039E9FB /* ikastagramTests.xctest */,
+				108E0A7B26021AB40039E9FB /* ikastagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108E0A6126021AB00039E9FB /* ikastagram */ = {
+			isa = PBXGroup;
+			children = (
+				108E0A6226021AB00039E9FB /* ikastagramApp.swift */,
+				108E0A6426021AB00039E9FB /* ContentView.swift */,
+				108E0A6626021AB40039E9FB /* Assets.xcassets */,
+				108E0A6B26021AB40039E9FB /* Info.plist */,
+				108E0A6826021AB40039E9FB /* Preview Content */,
+			);
+			path = ikastagram;
+			sourceTree = "<group>";
+		};
+		108E0A6826021AB40039E9FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				108E0A6926021AB40039E9FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		108E0A7326021AB40039E9FB /* ikastagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				108E0A7426021AB40039E9FB /* ikastagramTests.swift */,
+				108E0A7626021AB40039E9FB /* Info.plist */,
+			);
+			path = ikastagramTests;
+			sourceTree = "<group>";
+		};
+		108E0A7E26021AB40039E9FB /* ikastagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				108E0A7F26021AB40039E9FB /* ikastagramUITests.swift */,
+				108E0A8126021AB40039E9FB /* Info.plist */,
+			);
+			path = ikastagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108E0A5E26021AB00039E9FB /* ikastagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108E0A8426021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagram" */;
+			buildPhases = (
+				108E0A5B26021AB00039E9FB /* Sources */,
+				108E0A5C26021AB00039E9FB /* Frameworks */,
+				108E0A5D26021AB00039E9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ikastagram;
+			productName = ikastagram;
+			productReference = 108E0A5F26021AB00039E9FB /* ikastagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		108E0A6F26021AB40039E9FB /* ikastagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108E0A8726021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramTests" */;
+			buildPhases = (
+				108E0A6C26021AB40039E9FB /* Sources */,
+				108E0A6D26021AB40039E9FB /* Frameworks */,
+				108E0A6E26021AB40039E9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108E0A7226021AB40039E9FB /* PBXTargetDependency */,
+			);
+			name = ikastagramTests;
+			productName = ikastagramTests;
+			productReference = 108E0A7026021AB40039E9FB /* ikastagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		108E0A7A26021AB40039E9FB /* ikastagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108E0A8A26021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramUITests" */;
+			buildPhases = (
+				108E0A7726021AB40039E9FB /* Sources */,
+				108E0A7826021AB40039E9FB /* Frameworks */,
+				108E0A7926021AB40039E9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108E0A7D26021AB40039E9FB /* PBXTargetDependency */,
+			);
+			name = ikastagramUITests;
+			productName = ikastagramUITests;
+			productReference = 108E0A7B26021AB40039E9FB /* ikastagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108E0A5726021AB00039E9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					108E0A5E26021AB00039E9FB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					108E0A6F26021AB40039E9FB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 108E0A5E26021AB00039E9FB;
+					};
+					108E0A7A26021AB40039E9FB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 108E0A5E26021AB00039E9FB;
+					};
+				};
+			};
+			buildConfigurationList = 108E0A5A26021AB00039E9FB /* Build configuration list for PBXProject "ikastagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 108E0A5626021AB00039E9FB;
+			productRefGroup = 108E0A6026021AB00039E9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108E0A5E26021AB00039E9FB /* ikastagram */,
+				108E0A6F26021AB40039E9FB /* ikastagramTests */,
+				108E0A7A26021AB40039E9FB /* ikastagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108E0A5D26021AB00039E9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E0A6A26021AB40039E9FB /* Preview Assets.xcassets in Resources */,
+				108E0A6726021AB40039E9FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A6E26021AB40039E9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A7926021AB40039E9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108E0A5B26021AB00039E9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E0A6526021AB00039E9FB /* ContentView.swift in Sources */,
+				108E0A6326021AB00039E9FB /* ikastagramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A6C26021AB40039E9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E0A7526021AB40039E9FB /* ikastagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108E0A7726021AB40039E9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108E0A8026021AB40039E9FB /* ikastagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		108E0A7226021AB40039E9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108E0A5E26021AB00039E9FB /* ikastagram */;
+			targetProxy = 108E0A7126021AB40039E9FB /* PBXContainerItemProxy */;
+		};
+		108E0A7D26021AB40039E9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108E0A5E26021AB00039E9FB /* ikastagram */;
+			targetProxy = 108E0A7C26021AB40039E9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		108E0A8226021AB40039E9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		108E0A8326021AB40039E9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		108E0A8526021AB40039E9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ikastagram/Preview Content\"";
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ikastagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		108E0A8626021AB40039E9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ikastagram/Preview Content\"";
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ikastagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		108E0A8826021AB40039E9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				INFOPLIST_FILE = ikastagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ikastagram.app/ikastagram";
+			};
+			name = Debug;
+		};
+		108E0A8926021AB40039E9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				INFOPLIST_FILE = ikastagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ikastagram.app/ikastagram";
+			};
+			name = Release;
+		};
+		108E0A8B26021AB40039E9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				INFOPLIST_FILE = ikastagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ikastagram;
+			};
+			name = Debug;
+		};
+		108E0A8C26021AB40039E9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9HU6JZF2Q;
+				INFOPLIST_FILE = ikastagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tkgstrator.ikastagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ikastagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108E0A5A26021AB00039E9FB /* Build configuration list for PBXProject "ikastagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108E0A8226021AB40039E9FB /* Debug */,
+				108E0A8326021AB40039E9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108E0A8426021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108E0A8526021AB40039E9FB /* Debug */,
+				108E0A8626021AB40039E9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108E0A8726021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108E0A8826021AB40039E9FB /* Debug */,
+				108E0A8926021AB40039E9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108E0A8A26021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108E0A8B26021AB40039E9FB /* Debug */,
+				108E0A8C26021AB40039E9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108E0A5726021AB00039E9FB /* Project object */;
+}
