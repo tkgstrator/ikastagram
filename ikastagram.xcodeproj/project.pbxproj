@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB30948DD6109886F52D6CC /* Pods_ikastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C5C7C0F6B91B811A5444E /* Pods_ikastagram.framework */; };
 		108E0A6326021AB00039E9FB /* ikastagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A6226021AB00039E9FB /* ikastagramApp.swift */; };
 		108E0A6526021AB00039E9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A6426021AB00039E9FB /* ContentView.swift */; };
 		108E0A6726021AB40039E9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108E0A6626021AB40039E9FB /* Assets.xcassets */; };
 		108E0A6A26021AB40039E9FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108E0A6926021AB40039E9FB /* Preview Assets.xcassets */; };
 		108E0A7526021AB40039E9FB /* ikastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A7426021AB40039E9FB /* ikastagramTests.swift */; };
 		108E0A8026021AB40039E9FB /* ikastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0A7F26021AB40039E9FB /* ikastagramUITests.swift */; };
+		108E0A9226021BD20039E9FB /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 108E0A9126021BD20039E9FB /* BetterSafariView */; };
+		108E0A9826021BFE0039E9FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 108E0A9726021BFE0039E9FB /* Alamofire */; };
+		108E0A9E26021C100039E9FB /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 108E0A9D26021C100039E9FB /* SwiftyJSON */; };
+		108E0AA326021CA80039E9FB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0AA226021CA80039E9FB /* LoginView.swift */; };
+		108E0AB026036C070039E9FB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0AAF26036C070039E9FB /* ChatView.swift */; };
+		108E0AD426036EB90039E9FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 108E0AD326036EB90039E9FB /* GoogleService-Info.plist */; };
+		108E0AEE260370FD0039E9FB /* FirebaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0AED260370FD0039E9FB /* FirebaseUI.swift */; };
+		108E0B0B260373A20039E9FB /* FirebaseAuthStateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */; };
+		108E0B11260375170039E9FB /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0B10260375170039E9FB /* MessageModel.swift */; };
+		34CCCBE8A705050450E8461D /* Pods_ikastagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE0CE8E4463DCDB44A1587 /* Pods_ikastagramTests.framework */; };
+		DBC5C8E226E3307CEB446095 /* Pods_ikastagram_ikastagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2944A7B1432768275772ED1A /* Pods_ikastagram_ikastagramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,21 @@
 		108E0A7B26021AB40039E9FB /* ikastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		108E0A7F26021AB40039E9FB /* ikastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikastagramUITests.swift; sourceTree = "<group>"; };
 		108E0A8126021AB40039E9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108E0AA226021CA80039E9FB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		108E0AAF26036C070039E9FB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		108E0AD326036EB90039E9FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		108E0AED260370FD0039E9FB /* FirebaseUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUI.swift; sourceTree = "<group>"; };
+		108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthStateObserver.swift; sourceTree = "<group>"; };
+		108E0B10260375170039E9FB /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		2944A7B1432768275772ED1A /* Pods_ikastagram_ikastagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ikastagram_ikastagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBE0CE8E4463DCDB44A1587 /* Pods_ikastagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ikastagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C37E85203AA06787162002 /* Pods-ikastagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagramTests.debug.xcconfig"; path = "Target Support Files/Pods-ikastagramTests/Pods-ikastagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		621C5C7C0F6B91B811A5444E /* Pods_ikastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ikastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7480084FCE2A9DDD6C070F0D /* Pods-ikastagram-ikastagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagram-ikastagramUITests.release.xcconfig"; path = "Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A13E8073A1CE97D99EDBB88 /* Pods-ikastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagram.release.xcconfig"; path = "Target Support Files/Pods-ikastagram/Pods-ikastagram.release.xcconfig"; sourceTree = "<group>"; };
+		91E0D77D429AB4C142EA544C /* Pods-ikastagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagram.debug.xcconfig"; path = "Target Support Files/Pods-ikastagram/Pods-ikastagram.debug.xcconfig"; sourceTree = "<group>"; };
+		9238362CAFE44143B4C424FC /* Pods-ikastagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagramTests.release.xcconfig"; path = "Target Support Files/Pods-ikastagramTests/Pods-ikastagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		E44A97149FFA78F0FF14DA00 /* Pods-ikastagram-ikastagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagram-ikastagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108E0A9E26021C100039E9FB /* SwiftyJSON in Frameworks */,
+				108E0A9226021BD20039E9FB /* BetterSafariView in Frameworks */,
+				108E0A9826021BFE0039E9FB /* Alamofire in Frameworks */,
+				0CB30948DD6109886F52D6CC /* Pods_ikastagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CCCBE8A705050450E8461D /* Pods_ikastagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC5C8E226E3307CEB446095 /* Pods_ikastagram_ikastagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F6DD5C0FD871A5A264E239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E0D77D429AB4C142EA544C /* Pods-ikastagram.debug.xcconfig */,
+				7A13E8073A1CE97D99EDBB88 /* Pods-ikastagram.release.xcconfig */,
+				E44A97149FFA78F0FF14DA00 /* Pods-ikastagram-ikastagramUITests.debug.xcconfig */,
+				7480084FCE2A9DDD6C070F0D /* Pods-ikastagram-ikastagramUITests.release.xcconfig */,
+				61C37E85203AA06787162002 /* Pods-ikastagramTests.debug.xcconfig */,
+				9238362CAFE44143B4C424FC /* Pods-ikastagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		108E0A5626021AB00039E9FB = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +125,8 @@
 				108E0A7326021AB40039E9FB /* ikastagramTests */,
 				108E0A7E26021AB40039E9FB /* ikastagramUITests */,
 				108E0A6026021AB00039E9FB /* Products */,
+				05F6DD5C0FD871A5A264E239 /* Pods */,
+				685BD015E39BF0BA1E7E347C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +144,16 @@
 			isa = PBXGroup;
 			children = (
 				108E0A6226021AB00039E9FB /* ikastagramApp.swift */,
+				108E0B0F260375020039E9FB /* ObservedObject */,
+				108E0AA226021CA80039E9FB /* LoginView.swift */,
 				108E0A6426021AB00039E9FB /* ContentView.swift */,
+				108E0AAF26036C070039E9FB /* ChatView.swift */,
 				108E0A6626021AB40039E9FB /* Assets.xcassets */,
 				108E0A6B26021AB40039E9FB /* Info.plist */,
+				108E0AD326036EB90039E9FB /* GoogleService-Info.plist */,
 				108E0A6826021AB40039E9FB /* Preview Content */,
+				108E0AED260370FD0039E9FB /* FirebaseUI.swift */,
+				108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */,
 			);
 			path = ikastagram;
 			sourceTree = "<group>";
@@ -130,6 +184,24 @@
 			path = ikastagramUITests;
 			sourceTree = "<group>";
 		};
+		108E0B0F260375020039E9FB /* ObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				108E0B10260375170039E9FB /* MessageModel.swift */,
+			);
+			path = ObservedObject;
+			sourceTree = "<group>";
+		};
+		685BD015E39BF0BA1E7E347C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621C5C7C0F6B91B811A5444E /* Pods_ikastagram.framework */,
+				2944A7B1432768275772ED1A /* Pods_ikastagram_ikastagramUITests.framework */,
+				5BBE0CE8E4463DCDB44A1587 /* Pods_ikastagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +209,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108E0A8426021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagram" */;
 			buildPhases = (
+				F6F182401930A956F93486F0 /* [CP] Check Pods Manifest.lock */,
 				108E0A5B26021AB00039E9FB /* Sources */,
 				108E0A5C26021AB00039E9FB /* Frameworks */,
 				108E0A5D26021AB00039E9FB /* Resources */,
+				5427FC8185FF0C90F88A6B76 /* [CP] Embed Pods Frameworks */,
+				0330A51C12D94E097ED11FB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ikastagram;
+			packageProductDependencies = (
+				108E0A9126021BD20039E9FB /* BetterSafariView */,
+				108E0A9726021BFE0039E9FB /* Alamofire */,
+				108E0A9D26021C100039E9FB /* SwiftyJSON */,
+			);
 			productName = ikastagram;
 			productReference = 108E0A5F26021AB00039E9FB /* ikastagram.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108E0A8726021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramTests" */;
 			buildPhases = (
+				81D56FAF1175A5D312863C2C /* [CP] Check Pods Manifest.lock */,
 				108E0A6C26021AB40039E9FB /* Sources */,
 				108E0A6D26021AB40039E9FB /* Frameworks */,
 				108E0A6E26021AB40039E9FB /* Resources */,
@@ -172,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108E0A8A26021AB40039E9FB /* Build configuration list for PBXNativeTarget "ikastagramUITests" */;
 			buildPhases = (
+				A739BAEE62F99DF3EF7759E9 /* [CP] Check Pods Manifest.lock */,
 				108E0A7726021AB40039E9FB /* Sources */,
 				108E0A7826021AB40039E9FB /* Frameworks */,
 				108E0A7926021AB40039E9FB /* Resources */,
+				9D3F730B28344DDCF342B03C /* [CP] Embed Pods Frameworks */,
+				9B8CFCE3189CADD6AB028AD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +301,11 @@
 				Base,
 			);
 			mainGroup = 108E0A5626021AB00039E9FB;
+			packageReferences = (
+				108E0A9026021BD20039E9FB /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				108E0A9626021BFE0039E9FB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				108E0A9C26021C100039E9FB /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 108E0A6026021AB00039E9FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +324,7 @@
 			files = (
 				108E0A6A26021AB40039E9FB /* Preview Assets.xcassets in Resources */,
 				108E0A6726021AB40039E9FB /* Assets.xcassets in Resources */,
+				108E0AD426036EB90039E9FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +344,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0330A51C12D94E097ED11FB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5427FC8185FF0C90F88A6B76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ikastagram/Pods-ikastagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D56FAF1175A5D312863C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ikastagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8CFCE3189CADD6AB028AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3F730B28344DDCF342B03C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ikastagram-ikastagramUITests/Pods-ikastagram-ikastagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A739BAEE62F99DF3EF7759E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ikastagram-ikastagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F182401930A956F93486F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ikastagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		108E0A5B26021AB00039E9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108E0AB026036C070039E9FB /* ChatView.swift in Sources */,
+				108E0AA326021CA80039E9FB /* LoginView.swift in Sources */,
+				108E0B11260375170039E9FB /* MessageModel.swift in Sources */,
 				108E0A6526021AB00039E9FB /* ContentView.swift in Sources */,
 				108E0A6326021AB00039E9FB /* ikastagramApp.swift in Sources */,
+				108E0B0B260373A20039E9FB /* FirebaseAuthStateObserver.swift in Sources */,
+				108E0AEE260370FD0039E9FB /* FirebaseUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +646,7 @@
 		};
 		108E0A8526021AB40039E9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E0D77D429AB4C142EA544C /* Pods-ikastagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +669,7 @@
 		};
 		108E0A8626021AB40039E9FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A13E8073A1CE97D99EDBB88 /* Pods-ikastagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +692,7 @@
 		};
 		108E0A8826021AB40039E9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C37E85203AA06787162002 /* Pods-ikastagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +715,7 @@
 		};
 		108E0A8926021AB40039E9FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9238362CAFE44143B4C424FC /* Pods-ikastagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +738,7 @@
 		};
 		108E0A8B26021AB40039E9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44A97149FFA78F0FF14DA00 /* Pods-ikastagram-ikastagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +759,7 @@
 		};
 		108E0A8C26021AB40039E9FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7480084FCE2A9DDD6C070F0D /* Pods-ikastagram-ikastagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +818,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		108E0A9026021BD20039E9FB /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		108E0A9626021BFE0039E9FB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		108E0A9C26021C100039E9FB /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		108E0A9126021BD20039E9FB /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 108E0A9026021BD20039E9FB /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		108E0A9726021BFE0039E9FB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 108E0A9626021BFE0039E9FB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		108E0A9D26021C100039E9FB /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 108E0A9C26021C100039E9FB /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 108E0A5726021AB00039E9FB /* Project object */;
 }

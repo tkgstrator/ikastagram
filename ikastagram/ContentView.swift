@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import Alamofire
+import SwiftyJSON
 
 struct ContentView: View {
+    
+    @AppStorage("oauthToken") var oauthToken: String = ""
+    @AppStorage("oauthTokenSecret") var oauthTokenSecret: String = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ChatView()
+            .navigationTitle("TITLE_IKASTAGRAM")
+        }
     }
 }
 

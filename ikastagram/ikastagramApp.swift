@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct ikastagramApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
+    @AppStorage("isFirstLaunch") var isFirstLaunch: Bool = true
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .sheet(isPresented: $isFirstLaunch) {
+                    FirebaseUIView()
+                }
         }
     }
 }
