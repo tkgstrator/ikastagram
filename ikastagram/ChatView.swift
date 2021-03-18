@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ChatView: View {
+    @EnvironmentObject var main: MessageViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(main.messages) { message in
+                HStack {
+                    Text(message.message)
+                    Spacer()
+                }
+            }
+        }
     }
 }
 

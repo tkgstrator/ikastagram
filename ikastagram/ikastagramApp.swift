@@ -19,6 +19,7 @@ struct ikastagramApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(MessageViewModel())
                 .sheet(isPresented: $isFirstLaunch) {
                     FirebaseUIView()
                 }

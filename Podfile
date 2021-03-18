@@ -6,9 +6,11 @@ target 'ikastagram' do
 use_frameworks!
 # add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
-pod 'FirebaseUI/Auth'
-pod 'FirebaseUI/OAuth'
+pod 'FirebaseUI/Auth', ">=10.0.2"
+pod 'FirebaseUI/OAuth', ">=10.0.2"
 pod 'Firebase/Firestore'
+pod 'Firebase/Core'
+# pod 'FirebaseFirestoreSwift'
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
 # Pods for ikastagram
