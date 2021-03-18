@@ -1,17 +1,18 @@
 import Firebase
+import SwiftUI
 
 class FirebaseAuthStateObserver: ObservableObject {
     @Published var isSignin: Bool = false
+    @AppStorage("uid") var uid: String?
     private var listener: AuthStateDidChangeListenerHandle!
 
     init() {
-        listener = Auth.auth().addStateDidChangeListener { (auth, user) in
+        listener = Auth.auth().addStateDidChangeListener { [self] (auth, user) in
             if let _ = user {
-                print("sign-in")
-                self.isSignin = true
+                uid = user?.uid
+                isSignin = true
             } else {
-                print("sign-out")
-                self.isSignin = false
+                isSignin = false
             }
         }
     }

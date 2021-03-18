@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ikastagram
+
+  Created by Devonly on 3/18/21.
+  
+*/
+"TITLE_USER" = "ユーザ";
+"TITLE_IKASTAGRAM" = "イカ☆スタ";
+"USER_ID" = "ユーザID";
+"USER_NAME" = "ユーザ名";
+"TOGGLE_LOGIN" = "再ログイン";
+"CHAT_MESSAGE" = "イカよろしく";

@@ -20,6 +20,7 @@ struct ikastagramApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(MessageViewModel())
+                .environmentObject(FirebaseAuthStateObserver())
                 .sheet(isPresented: $isFirstLaunch) {
                     FirebaseUIView()
                 }

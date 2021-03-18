@@ -23,6 +23,8 @@
 		108E0AEE260370FD0039E9FB /* FirebaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0AED260370FD0039E9FB /* FirebaseUI.swift */; };
 		108E0B0B260373A20039E9FB /* FirebaseAuthStateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */; };
 		108E0B11260375170039E9FB /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0B10260375170039E9FB /* MessageModel.swift */; };
+		108E0B8A260383D20039E9FB /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E0B89260383D20039E9FB /* UserView.swift */; };
+		108E0B9C260390210039E9FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 108E0B9E260390210039E9FB /* Localizable.strings */; };
 		34CCCBE8A705050450E8461D /* Pods_ikastagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE0CE8E4463DCDB44A1587 /* Pods_ikastagramTests.framework */; };
 		DBC5C8E226E3307CEB446095 /* Pods_ikastagram_ikastagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2944A7B1432768275772ED1A /* Pods_ikastagram_ikastagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,9 @@
 		108E0AED260370FD0039E9FB /* FirebaseUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUI.swift; sourceTree = "<group>"; };
 		108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthStateObserver.swift; sourceTree = "<group>"; };
 		108E0B10260375170039E9FB /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		108E0B89260383D20039E9FB /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		108E0B9D260390210039E9FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		108E0BA22603902A0039E9FB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2944A7B1432768275772ED1A /* Pods_ikastagram_ikastagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ikastagram_ikastagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBE0CE8E4463DCDB44A1587 /* Pods_ikastagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ikastagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C37E85203AA06787162002 /* Pods-ikastagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ikastagramTests.debug.xcconfig"; path = "Target Support Files/Pods-ikastagramTests/Pods-ikastagramTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +152,7 @@
 				108E0B0F260375020039E9FB /* ObservedObject */,
 				108E0AA226021CA80039E9FB /* LoginView.swift */,
 				108E0A6426021AB00039E9FB /* ContentView.swift */,
+				108E0B89260383D20039E9FB /* UserView.swift */,
 				108E0AAF26036C070039E9FB /* ChatView.swift */,
 				108E0A6626021AB40039E9FB /* Assets.xcassets */,
 				108E0A6B26021AB40039E9FB /* Info.plist */,
@@ -154,6 +160,7 @@
 				108E0A6826021AB40039E9FB /* Preview Content */,
 				108E0AED260370FD0039E9FB /* FirebaseUI.swift */,
 				108E0B0A260373A20039E9FB /* FirebaseAuthStateObserver.swift */,
+				108E0B9E260390210039E9FB /* Localizable.strings */,
 			);
 			path = ikastagram;
 			sourceTree = "<group>";
@@ -299,6 +306,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 108E0A5626021AB00039E9FB;
 			packageReferences = (
@@ -323,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				108E0A6A26021AB40039E9FB /* Preview Assets.xcassets in Resources */,
+				108E0B9C260390210039E9FB /* Localizable.strings in Resources */,
 				108E0A6726021AB40039E9FB /* Assets.xcassets in Resources */,
 				108E0AD426036EB90039E9FB /* GoogleService-Info.plist in Resources */,
 			);
@@ -489,6 +498,7 @@
 				108E0AB026036C070039E9FB /* ChatView.swift in Sources */,
 				108E0AA326021CA80039E9FB /* LoginView.swift in Sources */,
 				108E0B11260375170039E9FB /* MessageModel.swift in Sources */,
+				108E0B8A260383D20039E9FB /* UserView.swift in Sources */,
 				108E0A6526021AB00039E9FB /* ContentView.swift in Sources */,
 				108E0A6326021AB00039E9FB /* ikastagramApp.swift in Sources */,
 				108E0B0B260373A20039E9FB /* FirebaseAuthStateObserver.swift in Sources */,
@@ -526,6 +536,18 @@
 			targetProxy = 108E0A7C26021AB40039E9FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		108E0B9E260390210039E9FB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108E0B9D260390210039E9FB /* en */,
+				108E0BA22603902A0039E9FB /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		108E0A8226021AB40039E9FB /* Debug */ = {

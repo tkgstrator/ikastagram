@@ -8,17 +8,21 @@
 import Foundation
 import Firebase
 
-struct messageDataType: Identifiable {
+struct MessageData: Identifiable {
     var id: String
+    var uid: String
     var name: String
     var message: String
+    var date: Date
 }
 
 class MessageViewModel: ObservableObject {
-    @Published var messages = [messageDataType]()
+    @Published var messages = [MessageData]()
+    private let dateFormatter = ISO8601DateFormatter()
     
     init() {
         let db = Firestore.firestore()
+        dateFormatter.timeZone = TimeZone.current
         
         db.collection("messages").addSnapshotListener { (snap, error) in
             if let error = error {
@@ -28,21 +32,25 @@ class MessageViewModel: ObservableObject {
             if let snap = snap {
                 for i in snap.documentChanges {
                     if i.type == .added {
+                        let uid = i.document.get("uid") as! String
                         let name = i.document.get("name") as! String
                         let message = i.document.get("message") as! String
+                        let date = self.dateFormatter.date(from: (i.document.get("date") as! String))!
                         let id = i.document.documentID
-                        
-                        self.messages.append(messageDataType(id: id, name: name, message: message))
+
+                        self.messages.append(MessageData(id: id, uid: uid, name: name, message: message, date: date))
                     }
                 }
             }
         }
     }
     
-    func addMessage(message: String , user: String) {
+    func send(message: String, user: String, uid: String) {
         let data = [
             "message": message,
-            "name": user
+            "name": user,
+            "uid": uid,
+            "date": dateFormatter.string(from: Date())
         ]
         
         let db = Firestore.firestore()
@@ -52,7 +60,6 @@ class MessageViewModel: ObservableObject {
                 print(error.localizedDescription)
                 return
             }
-            
             print("success")
         }
     }

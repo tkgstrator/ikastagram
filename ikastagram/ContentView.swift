@@ -16,6 +16,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
+            UserView()
             ChatView()
             .navigationTitle("TITLE_IKASTAGRAM")
         }

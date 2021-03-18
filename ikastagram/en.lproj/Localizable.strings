@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ikastagram
+
+  Created by Devonly on 3/18/21.
+  
+*/
+"TITLE_USER" = "USER";
+"TITLE_IKASTAGRAM" = "IKASTAGRAM";
+"USER_ID" = "USER ID";
+"USER_NAME" = "USER NAME";
+"TOGGLE_LOGIN" = "RE LOGIN";
+"CHAT_MESSAGE" = "MESSAGE";
