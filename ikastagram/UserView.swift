@@ -29,6 +29,11 @@ struct UserView: View {
                     .multilineTextAlignment(.trailing)
             }
             Toggle(isOn: $isFirstLaunch, label: { Text("TOGGLE_LOGIN") })
+            NavigationLink(
+                destination: ChatView(),
+                label: {
+                    Text("TITLE_IKASTAGRAM")
+                })
         }
         .navigationTitle("TITLE_USER")
     }

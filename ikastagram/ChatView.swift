@@ -29,6 +29,7 @@ struct ChatView: View {
                                     .foregroundColor(.blue)
                                 Text(dateFormatter.string(from: message.date))
                             }
+                            .lineLimit(1)
                             .font(.system(size: 11, design: .monospaced))
                         } else {
                             HStack {
@@ -36,6 +37,7 @@ struct ChatView: View {
                                     .foregroundColor(.secondary)
                                 Text(dateFormatter.string(from: message.date))
                             }
+                            .lineLimit(1)
                             .font(.system(size: 11, design: .monospaced))
                         }
                         Text(message.message)
